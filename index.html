@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>مترونوم</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/jqueryui.min.css">
+    <link rel="stylesheet"
+        href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/jquery-ui-slider-pips.min.css" />
+    <link rel="stylesheet" href="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/css/app.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://simeydotme.github.io/jQuery-ui-Slider-Pips/dist/js/jquery-ui-slider-pips.js"></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <link rel="stylesheet" href="./css/sliders.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mainInner">
+            <div class="main_container">
+                <div class="outerCTR" id="soundCTR">
+                    <div class="topCTR">
+                        <span type="button" class="arrows fas fa-angle-left"></span>
+                        <span class="outerInput">
+                            <span></span>
+                        </span>
+                        <span type="button" class="arrows fas fa-angle-right"></span>
+                    </div>
+                </div>
+                <div class="outerCTR onoff" id="beatCTR">
+                    <div class="outerPlayBeat">
+                        <div class="-big playBeat" id="quarter">
+                            <span class="fas fa-exchange-alt"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 29.5 100.1"
+                                style="enable-background:new 0 0 29.5 100.1;" xml:space="preserve">
+                                <path
+                                    d="M0,91.4c0.9-3.4,2.5-6.5,5-9c5.7-5.9,12.4-8.3,20.5-5.7c0.2,0.1,0.4,0.1,0.7,0.1c0-0.5,0.1-0.9,0.1-1.3  c0-24.8,0-49.6,0-74.3c0-0.4-0.1-0.8-0.1-1.2c1.1,0,2.2,0,3.4,0c0,0.4,0,0.8,0,1.2c0,26.6-0.1,53.1-0.1,79.7c0,3.6-0.8,7.1-2.6,10.2  c-3.8,6.6-12,10.2-19.7,8.6C4,99.1,1.1,98,0,94.6C0,93.5,0,92.5,0,91.4z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="outerPlayBeat">
+                        <div class="-big playBeat" id="eighth">
+                            <span class="fas fa-exchange-alt"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                                style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                                <path
+                                    d="M0,92.2c0.1-0.4,0.2-0.8,0.2-1.2c0.8-3.4,2.6-6.3,5-8.8c2.4-2.6,5.3-4.5,8.7-5.6c3.8-1.2,7.5-1.2,11.3,0.1  c0.3,0.1,0.7,0.2,1.1,0.4c0-25.7,0-51.3,0-77h0.1c0.1,0.2,0.2,0.5,0.3,0.7c2.4,5.7,5.1,11.2,8.4,16.4c2.9,4.5,6.1,8.8,9.7,12.7  c3.1,3.4,5.6,7.1,7.2,11.5c1.3,3.5,1.8,7.2,1.6,11c-0.3,4.9-1.8,9.5-4.1,13.8c-1.5,3-3.4,5.7-5.4,8.3c0,0.1-0.1,0.1-0.2,0.1  c0.1-0.2,0.2-0.3,0.2-0.5c1.9-4.1,3.6-8.3,4.8-12.7c1-3.5,1.6-7.1,1.6-10.8c0-6.6-2.3-12.3-7-17.1c-3-3-6.6-5.3-10.4-7.3  c-1.1-0.6-2.2-1-3.4-1.6c-0.1-0.1-0.3-0.1-0.5-0.2c0,0.3,0,0.5,0,0.7c0,18.5,0,37,0,55.5c0,3.8-0.9,7.5-2.9,10.8  c-2.1,3.4-5.1,5.8-8.8,7.2c-3.7,1.4-7.5,1.7-11.3,0.8c-1.5-0.3-2.9-0.9-4.1-1.8c-1.2-0.8-1.9-2-2.1-3.4c0.1,0,0-0.2,0-0.3  C0,93.3,0,92.7,0,92.2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="outerPlayBeat">
+                        <div class="-big playBeat" id="sixteenth">
+                            <span class="fas fa-exchange-alt"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                                style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                                <path
+                                    d="M26.7,0.8c-0.1-0.2-0.2-0.5-0.3-0.7h-0.1c0,25.7,0,51.3,0,77c-0.4-0.2-0.8-0.3-1.1-0.4c-3.8-1.3-7.5-1.3-11.3-0.1  c-3.4,1.1-6.3,3-8.7,5.6c-2.4,2.5-4.2,5.4-5,8.8c0,0.4-0.1,0.8-0.2,1.2c0,0.5,0,1.1,0,1.7c0,0.1,0.1,0.3,0,0.3  c0.2,1.4,0.9,2.6,2.1,3.4c1.2,0.9,2.6,1.5,4.1,1.8c3.8,0.9,7.6,0.6,11.3-0.8c3.7-1.4,6.7-3.8,8.8-7.2c2-3.3,2.9-7,2.9-10.8  c0-18.5,0-37,0-55.5c0-0.2,0-0.4,0-0.7c0,0,0,0,0,0v-18C28.4,4.6,27.5,2.7,26.7,0.8z" />
+                                <path
+                                    d="M51.8,30.1c-1.6-3-4.1-5.5-7.1-7.8c-3.6-2.6-6.7-5.6-9.6-8.6C32.9,11.4,31,9,29.2,6.5v12.2c0.2,0.1,0.4,0.1,0.4,0.1  c1.2,0.4,2.3,0.7,3.4,1.1c3.8,1.4,7.3,2.9,10.3,4.9c4.7,3.3,6.9,7.1,6.9,11.6c0,2.5-0.6,4.9-1.6,7.3c-0.2,0.5-0.4,0.9-0.6,1.4l1.1,2  c0,0,0.1-0.1,0.1-0.1c2.3-2.9,3.8-6,4.1-9.3C53.5,35,53.1,32.5,51.8,30.1z" />
+                                <path
+                                    d="M51.5,45c-1.6-3-4.2-5.5-7.3-7.8c-3.7-2.6-6.9-5.6-9.9-8.6c-2.2-2.3-4.2-4.8-6-7.3v12.2c0.2,0.1,0.4,0.1,0.5,0.1  c1.2,0.4,2.3,0.7,3.5,1.1c3.9,1.4,7.5,2.9,10.6,4.9c3.2,2.2,5.3,4.6,6.3,7.3l0.1,0.2l-0.1-0.2c0.5,1.4,0.8,2.8,0.8,4.3  c0,2.5-0.6,4.9-1.6,7.3c-1.2,3-3,5.8-4.9,8.6c0,0.1-0.1,0.2-0.2,0.3c0.1,0,0.2,0,0.2-0.1c2-1.8,4-3.6,5.5-5.6c2.3-2.9,3.9-6,4.2-9.3  C53.3,49.8,52.8,47.3,51.5,45z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="outerPlayBeat">
+                        <div class="-big playBeat" id="triplet">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                                style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                                <path
+                                    d="M26.7,0.8c-0.1-0.2-0.2-0.5-0.3-0.7h-0.1c0,25.7,0,51.3,0,77c-0.4-0.2-0.8-0.3-1.1-0.4c-3.8-1.3-7.5-1.3-11.3-0.1  c-3.4,1.1-6.3,3-8.7,5.6c-2.4,2.5-4.2,5.4-5,8.8c0,0.4-0.1,0.8-0.2,1.2c0,0.5,0,1.1,0,1.7c0,0.1,0.1,0.3,0,0.3  c0.2,1.4,0.9,2.6,2.1,3.4c1.2,0.9,2.6,1.5,4.1,1.8c3.8,0.9,7.6,0.6,11.3-0.8c3.7-1.4,6.7-3.8,8.8-7.2c2-3.3,2.9-7,2.9-10.8  c0-18.5,0-37,0-55.5c0-0.2,0-0.4,0-0.7c0,0,0,0,0,0v-18C28.4,4.6,27.5,2.7,26.7,0.8z" />
+                                <path
+                                    d="M51.8,30.1c-1.6-3-4.1-5.5-7.1-7.8c-3.6-2.6-6.7-5.6-9.6-8.6C32.9,11.4,31,9,29.2,6.5v12.2c0.2,0.1,0.4,0.1,0.4,0.1  c1.2,0.4,2.3,0.7,3.4,1.1c3.8,1.4,7.3,2.9,10.3,4.9c4.7,3.3,6.9,7.1,6.9,11.6c0,2.5-0.6,4.9-1.6,7.3c-0.2,0.5-0.4,0.9-0.6,1.4l1.1,2  c0,0,0.1-0.1,0.1-0.1c2.3-2.9,3.8-6,4.1-9.3C53.5,35,53.1,32.5,51.8,30.1z" />
+                                <path
+                                    d="M51.5,45c-1.6-3-4.2-5.5-7.3-7.8c-3.7-2.6-6.9-5.6-9.9-8.6c-2.2-2.3-4.2-4.8-6-7.3v12.2c0.2,0.1,0.4,0.1,0.5,0.1  c1.2,0.4,2.3,0.7,3.5,1.1c3.9,1.4,7.5,2.9,10.6,4.9c3.2,2.2,5.3,4.6,6.3,7.3l0.1,0.2l-0.1-0.2c0.5,1.4,0.8,2.8,0.8,4.3  c0,2.5-0.6,4.9-1.6,7.3c-1.2,3-3,5.8-4.9,8.6c0,0.1-0.1,0.2-0.2,0.3c0.1,0,0.2,0,0.2-0.1c2-1.8,4-3.6,5.5-5.6c2.3-2.9,3.9-6,4.2-9.3  C53.3,49.8,52.8,47.3,51.5,45z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_container">
+                <ul class="outerSlideDown">
+                </ul>
+                <div class="outerTaper">
+                    <div class="buttonTaper" id="taper">
+                        <div class="waveIn"></div>
+                        <div id="tapIndex"></div>
+                    </div>
+                    <div class="infoTap">
+                        اضغط بانتظام لتحصل على السرعه
+                    </div>
+                </div>
+                <div class="outerCTR" id="tempoCTR">
+                    <div class="topCTR">
+                        <span type="button" class="arrows fas fa-angle-left"></span>
+                        <span class="outerInput">
+                            <span>السرعه</span>
+                            <input min="10" max="260" value="120" type="number" />
+                            <div class="tapCTR">تخمين</div>
+                        </span>
+                        <span type="button" class="arrows fas fa-angle-right"></span>
+                    </div>
+                    <div class="botCTR">
+                        <div class="slider tempo slider ui" id="flat-slider-tempo"></div>
+                    </div>
+                </div>
+                <div class="outerCTR" id="eighthCTR">
+                    <div class="topCTR">
+                        <span type="button" class="arrows fas fa-angle-left"></span>
+                        <span class="outerInput">
+                            <span>البعد 8</span>
+                            <input min="0" max="100" value="0" type="number" />
+                        </span>
+                        <span type="button" class="arrows fas fa-angle-right"></span>
+                    </div>
+                    <div class="botCTR">
+                        <div class="slider eighthSwing slider ui" id="flat-slider-eighthSwing"></div>
+                    </div>
+                </div>
+                <div class="outerCTR" id="sixteenCTR">
+                    <div class="topCTR">
+                        <span type="button" class="arrows fas fa-angle-left"></span>
+                        <span class="outerInput">
+                            <span>البعد 16</span>
+                            <input min="0" max="100" value="0" type="number" />
+                        </span>
+                        <span type="button" class="arrows fas fa-angle-right"></span>
+                    </div>
+                    <div class="botCTR">
+                        <div class="slider sixteenthSwing slider ui" id="flat-slider-sixteenthSwing"></div>
+                    </div>
+                </div>
+                <div class="outerCTR" id="randCTR">
+                    <div class="topCTR">
+                        <span type="button" class="arrows fas fa-angle-left"></span>
+                        <span class="outerInput">
+                            <span>الكتم العشوائي</span>
+                            <input min="0" max="100" value="0" type="number" />
+                        </span>
+                        <span type="button" class="arrows fas fa-angle-right"></span>
+                    </div>
+                    <div class="botCTR">
+                        <div class="slider randMute slider ui" id="flat-slider-randMute"></div>
+                    </div>
+                </div>
+                <div class="outerCTR" id="tempoCTR">
+                    <div class="topCTR">
+                        <span class="outerInput">
+                            <span>مستوى الصوت</span>
+                        </span>
+                    </div>
+                    <div class="botCTR">
+                        <div class="slider volume slider ui" id="flat-slider-volume"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swing-visualizer">
+                <svg class="note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 29.5 100.1"
+                    style="enable-background:new 0 0 29.5 100.1;" xml:space="preserve">
+                    <path
+                        d="M0,91.4c0.9-3.4,2.5-6.5,5-9c5.7-5.9,12.4-8.3,20.5-5.7c0.2,0.1,0.4,0.1,0.7,0.1c0-0.5,0.1-0.9,0.1-1.3  c0-24.8,0-49.6,0-74.3c0-0.4-0.1-0.8-0.1-1.2c1.1,0,2.2,0,3.4,0c0,0.4,0,0.8,0,1.2c0,26.6-0.1,53.1-0.1,79.7c0,3.6-0.8,7.1-2.6,10.2  c-3.8,6.6-12,10.2-19.7,8.6C4,99.1,1.1,98,0,94.6C0,93.5,0,92.5,0,91.4z" />
+                </svg>
+                <div class="notaDbl1">
+                    <svg class="note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                        style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                        <path
+                            d="M26.7,0.8c-0.1-0.2-0.2-0.5-0.3-0.7h-0.1c0,25.7,0,51.3,0,77c-0.4-0.2-0.8-0.3-1.1-0.4c-3.8-1.3-7.5-1.3-11.3-0.1  c-3.4,1.1-6.3,3-8.7,5.6c-2.4,2.5-4.2,5.4-5,8.8c0,0.4-0.1,0.8-0.2,1.2c0,0.5,0,1.1,0,1.7c0,0.1,0.1,0.3,0,0.3  c0.2,1.4,0.9,2.6,2.1,3.4c1.2,0.9,2.6,1.5,4.1,1.8c3.8,0.9,7.6,0.6,11.3-0.8c3.7-1.4,6.7-3.8,8.8-7.2c2-3.3,2.9-7,2.9-10.8  c0-18.5,0-37,0-55.5c0-0.2,0-0.4,0-0.7c0,0,0,0,0,0v-18C28.4,4.6,27.5,2.7,26.7,0.8z" />
+                        <path
+                            d="M51.8,30.1c-1.6-3-4.1-5.5-7.1-7.8c-3.6-2.6-6.7-5.6-9.6-8.6C32.9,11.4,31,9,29.2,6.5v12.2c0.2,0.1,0.4,0.1,0.4,0.1  c1.2,0.4,2.3,0.7,3.4,1.1c3.8,1.4,7.3,2.9,10.3,4.9c4.7,3.3,6.9,7.1,6.9,11.6c0,2.5-0.6,4.9-1.6,7.3c-0.2,0.5-0.4,0.9-0.6,1.4l1.1,2  c0,0,0.1-0.1,0.1-0.1c2.3-2.9,3.8-6,4.1-9.3C53.5,35,53.1,32.5,51.8,30.1z" />
+                        <path
+                            d="M51.5,45c-1.6-3-4.2-5.5-7.3-7.8c-3.7-2.6-6.9-5.6-9.9-8.6c-2.2-2.3-4.2-4.8-6-7.3v12.2c0.2,0.1,0.4,0.1,0.5,0.1  c1.2,0.4,2.3,0.7,3.5,1.1c3.9,1.4,7.5,2.9,10.6,4.9c3.2,2.2,5.3,4.6,6.3,7.3l0.1,0.2l-0.1-0.2c0.5,1.4,0.8,2.8,0.8,4.3  c0,2.5-0.6,4.9-1.6,7.3c-1.2,3-3,5.8-4.9,8.6c0,0.1-0.1,0.2-0.2,0.3c0.1,0,0.2,0,0.2-0.1c2-1.8,4-3.6,5.5-5.6c2.3-2.9,3.9-6,4.2-9.3  C53.3,49.8,52.8,47.3,51.5,45z" />
+                    </svg>
+                </div>
+                <div class="notaSin">
+                    <svg class="note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                        style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                        <path
+                            d="M0,92.2c0.1-0.4,0.2-0.8,0.2-1.2c0.8-3.4,2.6-6.3,5-8.8c2.4-2.6,5.3-4.5,8.7-5.6c3.8-1.2,7.5-1.2,11.3,0.1  c0.3,0.1,0.7,0.2,1.1,0.4c0-25.7,0-51.3,0-77h0.1c0.1,0.2,0.2,0.5,0.3,0.7c2.4,5.7,5.1,11.2,8.4,16.4c2.9,4.5,6.1,8.8,9.7,12.7  c3.1,3.4,5.6,7.1,7.2,11.5c1.3,3.5,1.8,7.2,1.6,11c-0.3,4.9-1.8,9.5-4.1,13.8c-1.5,3-3.4,5.7-5.4,8.3c0,0.1-0.1,0.1-0.2,0.1  c0.1-0.2,0.2-0.3,0.2-0.5c1.9-4.1,3.6-8.3,4.8-12.7c1-3.5,1.6-7.1,1.6-10.8c0-6.6-2.3-12.3-7-17.1c-3-3-6.6-5.3-10.4-7.3  c-1.1-0.6-2.2-1-3.4-1.6c-0.1-0.1-0.3-0.1-0.5-0.2c0,0.3,0,0.5,0,0.7c0,18.5,0,37,0,55.5c0,3.8-0.9,7.5-2.9,10.8  c-2.1,3.4-5.1,5.8-8.8,7.2c-3.7,1.4-7.5,1.7-11.3,0.8c-1.5-0.3-2.9-0.9-4.1-1.8c-1.2-0.8-1.9-2-2.1-3.4c0.1,0,0-0.2,0-0.3  C0,93.3,0,92.7,0,92.2z" />
+                    </svg>
+                </div>
+                <div class="notaDbl2">
+                    <svg class="note" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 53.7 100"
+                        style="enable-background:new 0 0 53.7 100;" xml:space="preserve">
+                        <path
+                            d="M26.7,0.8c-0.1-0.2-0.2-0.5-0.3-0.7h-0.1c0,25.7,0,51.3,0,77c-0.4-0.2-0.8-0.3-1.1-0.4c-3.8-1.3-7.5-1.3-11.3-0.1  c-3.4,1.1-6.3,3-8.7,5.6c-2.4,2.5-4.2,5.4-5,8.8c0,0.4-0.1,0.8-0.2,1.2c0,0.5,0,1.1,0,1.7c0,0.1,0.1,0.3,0,0.3  c0.2,1.4,0.9,2.6,2.1,3.4c1.2,0.9,2.6,1.5,4.1,1.8c3.8,0.9,7.6,0.6,11.3-0.8c3.7-1.4,6.7-3.8,8.8-7.2c2-3.3,2.9-7,2.9-10.8  c0-18.5,0-37,0-55.5c0-0.2,0-0.4,0-0.7c0,0,0,0,0,0v-18C28.4,4.6,27.5,2.7,26.7,0.8z" />
+                        <path
+                            d="M51.8,30.1c-1.6-3-4.1-5.5-7.1-7.8c-3.6-2.6-6.7-5.6-9.6-8.6C32.9,11.4,31,9,29.2,6.5v12.2c0.2,0.1,0.4,0.1,0.4,0.1  c1.2,0.4,2.3,0.7,3.4,1.1c3.8,1.4,7.3,2.9,10.3,4.9c4.7,3.3,6.9,7.1,6.9,11.6c0,2.5-0.6,4.9-1.6,7.3c-0.2,0.5-0.4,0.9-0.6,1.4l1.1,2  c0,0,0.1-0.1,0.1-0.1c2.3-2.9,3.8-6,4.1-9.3C53.5,35,53.1,32.5,51.8,30.1z" />
+                        <path
+                            d="M51.5,45c-1.6-3-4.2-5.5-7.3-7.8c-3.7-2.6-6.9-5.6-9.9-8.6c-2.2-2.3-4.2-4.8-6-7.3v12.2c0.2,0.1,0.4,0.1,0.5,0.1  c1.2,0.4,2.3,0.7,3.5,1.1c3.9,1.4,7.5,2.9,10.6,4.9c3.2,2.2,5.3,4.6,6.3,7.3l0.1,0.2l-0.1-0.2c0.5,1.4,0.8,2.8,0.8,4.3  c0,2.5-0.6,4.9-1.6,7.3c-1.2,3-3,5.8-4.9,8.6c0,0.1-0.1,0.2-0.2,0.3c0.1,0,0.2,0,0.2-0.1c2-1.8,4-3.6,5.5-5.6c2.3-2.9,3.9-6,4.2-9.3  C53.3,49.8,52.8,47.3,51.5,45z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/taper.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
